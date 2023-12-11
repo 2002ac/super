@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    width: 100%;
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1px;
+    position: fixed;
+    background-color: black;
+    background-repeat: inherit;
+}
+.nav-top {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 500px;
+    border-width: 1px;
+    border-style: solid;
+    border-bottom-color: white;
+}
+
+.nav-top-a {
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+}
+.nav-top-right {
+    width: 200px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.nav-top-left {
+    width: 400px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.nav-bottom {
+    margin-bottom: -10px;
+    width: 100%;
+    height: 59px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 400px;
+}
+.nav-bottom-right {
+    width: 300px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-bottom-left {
+    width: 500px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-bottom-left-ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; 
+    list-style-type: none;
+}
+
+.nav-bottom-left-ul-li-a {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.seh-1 {
+    margin-bottom: 110px;
+    width: 100%;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    background-image: url(https://www.volynnews.com/files/news/2016/02-18/179988/5-polis.jpg);
+}
+
+.seh-1-p-1 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-left: 70px;
+}
+
+.seh-1-h {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-left: 70px; 
+}
+
+.seh-1-p-2 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-left: 70px;
+}
+.seh-1-div-a {
+    width: 200px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(7,6,84);
+    background: linear-gradient(90deg, rgba(7,6,84,1) 30%, rgba(34,29,38,1) 78%);
+    margin-left: 70px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+}
+.seh-1-a {
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+}
